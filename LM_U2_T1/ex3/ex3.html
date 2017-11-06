@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ex3</title>
+  <link rel="stylesheet" type="text/css" href=" ">
+  <style>
+    td {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>A meeting room reservation form</h1>
+  <p>Notice how de PHP code form remains basically unchanged, despite the template</p>
+  <table cellspacing="0">
+    <tr>
+      <td><b>Your name: </b>
+        <font color="red">*
+          <font>
+      </td>
+      <td style='border: inset 0pt'><input type="your_name" placeholder=""></td>
+    </tr>
+
+    <tr bgcolor="#E6E6E6">
+      <td><b>Your email address: </b>
+        <font color="red">*
+          <font>
+      </td>
+      <td style='border: inset 0pt'><input type="your_email" placeholder=""></td>
+    </tr>
+
+    <tr>
+      <td><b>Departament: </b>
+        <font color="red">*
+          <font>
+      </td>
+      <td style='border: inset 0pt'><select>
+            <option>-select-</option>
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+          </select></td>
+    </tr>
+
+    <tr bgcolor="#E6E6E6">
+      <td><b>Which room would your like to reserve: </b>
+        <font color="red">*
+          <font>
+      </td>
+      <td style='border: inset 0pt'>
+        <input type="radio" name="Room_A">Room A</input>
+        </br>
+        <input type="radio" name="Room_B">Room B</input>
+        </br>
+        <input type="radio" name="Room_C">Room C</input>
+        </br>
+      </td>
+    </tr>
+
+    <tr>
+      <td><b>Extra requirements: </b>
+        <font color="red">*
+          <font>
+      </td>
+      <td style='border: inset 0pt'>
+        <input type="checkbox" name="requeriments">Flipchart and pens</input><br>
+        <input type="checkbox" name="requeriments">Plasma TV Screen</input><br>
+        <input type="checkbox" name="requeriments">Coffe,tea and mineral water</input><br>
+
+      </td>
+    </tr>
+
+    <tr bgcolor="#E6E6E6">
+      <td><b>Reservation date: </b>
+        <font color="red">*
+          <font>
+      </td>
+      <td style='border: inset 0pt'><input type="date"><img src="img/01.png" align="middle"><br>
+        <font size=2 color="gray">► Date Form is DD-MM-YYYY</font>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td><b>Reservation time: </b>
+        <font color="red">*
+          <font>
+      </td>
+      <td style='border: inset 0pt'>
+        <select>
+            <option>09</option>
+            <option>10</option>
+            </select>
+
+        <select>
+            <option>00</option>
+            <option>01</option>
+            </select>
+
+      </td>
+    </tr>
+
+    <tr bgcolor="#E6E6E6">
+      <td style='border: inset 0pt' colspan="2" align="center">
+        <input type="submit" value="Submit">
+    </tr>
+
+  </table>
+</body>
+
+</html>
